@@ -4,13 +4,13 @@ import XCTest
 final class fibonacciTests: XCTestCase {
     func testFib1() {
         measure {
-            fibonacci(70)
+            _ = fibonacci(70)
         }
     }
 
     func testFib2() {
         measure {
-            fibonacci(70)
+            _ = fibonacci(70)
         }
     }
 
